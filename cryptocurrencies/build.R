@@ -3,7 +3,7 @@ library(lubridate)
 library(tidyverse)
 
 fiat_symbol <- "USD"
-days <- 370
+days <- 395
 end_timestamp <- as.numeric(as.POSIXct("2017-12-31"))
 
 get_data <- function(crypto_symbol) {
